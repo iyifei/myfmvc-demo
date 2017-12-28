@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title-TEST</title>
+</head>
+<body>
+<h1>{$title}</h1>
+<table border="1">
+    {foreach from=$users item=vo}
+    <tr>
+        <td>{$vo.id}</td>
+        <td>{$vo.mobile}</td>
+        <td>{$vo.create_time}</td>
+    </tr>
+    {/foreach}
+</table>
+</body>
+</html>

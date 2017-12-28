@@ -1,0 +1,14 @@
+{
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/iyifei/myfmvc.git"
+    }
+  ],
+  "config": {
+    "secure-http": false
+  },
+  "require": {
+    "iyifei/myfmvc": "dev-master"
+  }
+}
