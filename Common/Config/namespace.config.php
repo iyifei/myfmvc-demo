@@ -7,6 +7,6 @@
  */
 return [
     'autoload'=>[
-        "Model" => APP_PATH . "/Model",
+        "Common\Model" => SYS_PATH . "/Common/Model",
     ]
 ];

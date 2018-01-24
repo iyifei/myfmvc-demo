@@ -12,8 +12,8 @@ return array(
             'host' => 'localhost',
             'port' => '3306',
             'username' => 'root',
-            'password' => '123456',
-            'dbname' => 'myfmvc',
+            'password' => 'minyifei.cn',
+            'dbname' => 'test',
             'charset' => 'utf8',
             'prefix' => ''
         ),

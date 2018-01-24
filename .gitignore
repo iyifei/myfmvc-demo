@@ -1,2 +1,4 @@
 vendor/
 composer.lock
+Admin/_logs
+App/_logs
