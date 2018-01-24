@@ -25,7 +25,14 @@ class IndexController extends Controller
         $users = $userModel->findAll();
         $this->assign('users',$users);
 
+        session("users",$users);
+
         $this->display();
+    }
+
+    public function ssAction(){
+        $users = session('users');
+        dump($users);
     }
 
 }
